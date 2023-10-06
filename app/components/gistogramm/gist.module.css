@@ -1,0 +1,27 @@
+.container {
+  width: 995px;
+  margin: 0 auto;
+}
+.select_position {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+.select {
+  border-radius: 15px;
+  border: 2px solid #000aff;
+  padding: 5px 5px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.select:focus {
+  border-color: #000aff;
+
+  outline: none;
+}
+.bar {
+  border-radius: 27px;
+  background-color: #fff2fe;
+  padding-left: 15px;
+}
